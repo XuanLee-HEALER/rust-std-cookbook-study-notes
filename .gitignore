@@ -1,1 +1,7 @@
 target
+
+*.csv
+*.toml
+*.json
+
+!Cargo.toml
