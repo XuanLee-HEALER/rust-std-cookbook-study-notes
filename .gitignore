@@ -3,5 +3,6 @@ target
 *.csv
 *.toml
 *.json
+*.txt
 
 !Cargo.toml
