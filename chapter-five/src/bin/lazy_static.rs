@@ -8,7 +8,7 @@ use regex::Regex;
 ///
 /// > 如果你要声明的是内容已知的vector，可以使用常量数组，因为它的构建是编译期的
 ///
-/// 新版本（1.7）之后可以使用OnceLock结构替代此crate的功能
+/// 新版本（1.7）之后可以使用OnceLock/LazyLock结构替代此crate的功能
 ///
 /// Rust中，static变量是在程序运行期间存活的变量，所以它们有自己的生命周期 `'static` ，所以它们的必须以constant way创建（编译期）
 /// 为什么 CURRENCIES 不能用普通的 static 声明？因为HashMap::new()返回的新对象是在运行时内存的某个位置，首先程序必须已经在内存中，所以这在编译期不可能发生

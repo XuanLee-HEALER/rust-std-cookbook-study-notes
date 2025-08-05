@@ -6,5 +6,5 @@ members = [
     "chapter-three",
     "chapter-two",
     "chapter-five",
-    "chapter-five-derive", "chapter-six",
+    "chapter-five-derive", "chapter-six", "chapter-seven",
 ]
